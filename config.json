@@ -1,0 +1,42 @@
+{
+  "parking_lot": {
+    "total_levels": 3,
+    "slots_per_level": 10,
+    "vip_slots": ["L1-S1", "L1-S2", "L1-S3"]
+  },
+  "pricing": {
+    "car": {
+      "base_fee": 5.0,
+      "hourly_rate": 3.0
+    },
+    "bike": {
+      "base_fee": 3.0,
+      "hourly_rate": 2.0
+    },
+    "truck": {
+      "base_fee": 10.0,
+      "hourly_rate": 5.0
+    },
+    "custom": {
+      "base_fee": 15.0,
+      "hourly_rate": 8.0
+    }
+  },
+  "validation": {
+    "vehicle_number_min_length": 3,
+    "vehicle_number_max_length": 15,
+    "custom_type_min_length": 2,
+    "custom_type_max_length": 20
+  },
+  "features": {
+    "enable_vip_parking": true,
+    "enable_blacklist": true,
+    "enable_waiting_queue": true,
+    "auto_statistics_update": true,
+    "statistics_update_interval": 10000
+  },
+  "alerts": {
+    "long_parking_threshold_hours": 24,
+    "high_occupancy_threshold": 90
+  }
+}
