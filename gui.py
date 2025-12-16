@@ -159,7 +159,7 @@ class ParkingGUI:
         footer_frame = tb.Frame(self.app, padding=5)
         footer_frame.pack(fill="x", side="bottom")
         
-        tb.Label(footer_frame, text="Developed by Ghulam Murtaza | Enhanced Parking Management System", 
+        tb.Label(footer_frame, text="Developed by GC Hassan Shafique, GC Usman, GC Muhammad Bin Mansoor | Smart Parking Management System", 
                 font=("Segoe UI", 8)).pack()
         
     def toggle_custom_input(self, event=None):
